@@ -394,6 +394,14 @@
     [
       "7b650159-18e3-4a88-b5a2-506e6fe9f3ef",
       "Outputs"
+    ],
+    [
+      "2fe0b40e-9c10-4ff0-b2cd-5720581d147f",
+      "Power"
+    ],
+    [
+      "ddbda7f4-3933-4f27-89fe-4c477c945179",
+      "Controller"
     ]
   ],
   "text_variables": {}
