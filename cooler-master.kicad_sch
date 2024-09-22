@@ -1,0 +1,1898 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "d013d610-c58f-4b11-9d18-37fc135ac516")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Sullivan-Labs:MCU STM32G473"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 35.56 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "STM32G473CBT3"
+				(at 35.56 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Sullivan-Labs:LQFP48-7x7mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "STM32G473CBT3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "ARM® Cortex®-M4 STM32G4 Microcontroller IC 32-Bit 170MHz 128KB (128K x 8) FLASH 48-LQFP (7x7)"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "STMicroelectronics"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PN" "STM32G473CBT3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "STM32G473CBT3"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LQFP48-7x7mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MCU STM32G473_1_1"
+				(rectangle
+					(start 7.62 6.35)
+					(end 63.5 -87.63)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -5.08 0)
+					(length 7.62)
+					(name "PA2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -7.62 0)
+					(length 7.62)
+					(name "PA3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -10.16 0)
+					(length 7.62)
+					(name "PA4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -12.7 0)
+					(length 7.62)
+					(name "PA5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -15.24 0)
+					(length 7.62)
+					(name "PA6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -17.78 0)
+					(length 7.62)
+					(name "PA7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -43.18 0)
+					(length 7.62)
+					(name "PB0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -45.72 0)
+					(length 7.62)
+					(name "PB1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -48.26 0)
+					(length 7.62)
+					(name "PB2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 71.12 0 180)
+					(length 7.62)
+					(name "PC13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -68.58 0)
+					(length 7.62)
+					(name "PB10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -71.12 0)
+					(length 7.62)
+					(name "PB11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -73.66 0)
+					(length 7.62)
+					(name "PB12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -76.2 0)
+					(length 7.62)
+					(name "PB13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -78.74 0)
+					(length 7.62)
+					(name "PB14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -81.28 0)
+					(length 7.62)
+					(name "PB15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 71.12 -2.54 180)
+					(length 7.62)
+					(name "PC14-OSC32_IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -20.32 0)
+					(length 7.62)
+					(name "PA8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -22.86 0)
+					(length 7.62)
+					(name "PA9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -25.4 0)
+					(length 7.62)
+					(name "PA10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -27.94 0)
+					(length 7.62)
+					(name "PA11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -30.48 0)
+					(length 7.62)
+					(name "PA12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -33.02 0)
+					(length 7.62)
+					(name "PA13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -35.56 0)
+					(length 7.62)
+					(name "PA14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "38"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -38.1 0)
+					(length 7.62)
+					(name "PA15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "39"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 71.12 -5.08 180)
+					(length 7.62)
+					(name "PC15-OSC32_OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -50.8 0)
+					(length 7.62)
+					(name "PB3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "40"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -53.34 0)
+					(length 7.62)
+					(name "PB4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -55.88 0)
+					(length 7.62)
+					(name "PB5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -58.42 0)
+					(length 7.62)
+					(name "PB6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "43"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -60.96 0)
+					(length 7.62)
+					(name "PB7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "44"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -63.5 0)
+					(length 7.62)
+					(name "PB8-BOOT0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -66.04 0)
+					(length 7.62)
+					(name "PB9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "46"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 71.12 -10.16 180)
+					(length 7.62)
+					(name "PF0-OSC_IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 71.12 -12.7 180)
+					(length 7.62)
+					(name "PF1-OSC_OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 71.12 -17.78 180)
+					(length 7.62)
+					(name "PG10-NRST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 0 0)
+					(length 7.62)
+					(name "PA0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -2.54 0)
+					(length 7.62)
+					(name "PA1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "MCU STM32G473_2_1"
+				(rectangle
+					(start 7.62 5.08)
+					(end 33.02 -20.32)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 0 -15.24 0)
+					(length 7.62)
+					(name "VBAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 40.64 -15.24 180)
+					(length 7.62)
+					(name "VSSA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 40.64 0 180)
+					(length 7.62)
+					(name "VREF+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 7.62)
+					(name "VDDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 40.64 -7.62 180)
+					(length 7.62)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -5.08 0)
+					(length 7.62)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 40.64 -10.16 180)
+					(length 7.62)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 0)
+					(length 7.62)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 40.64 -12.7 180)
+					(length 7.62)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "47"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 0)
+					(length 7.62)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "48"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Sullivan-Labs:PMOS G040P04M"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 10.16 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "G040P04M"
+				(at 10.16 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Sullivan-Labs:TO-263-3, D2PAK"
+				(at 5.08 -1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 10.16 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Description" "MOSFET P-CH 40V 222A 312W TO-263"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Goford Semiconductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PN" "G040P04M"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Single P-Channel HEXFET Power MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?220*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PMOS G040P04M_0_1"
+				(polyline
+					(pts
+						(xy 5.334 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.334 1.905) (xy 5.334 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 -1.27) (xy 5.842 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 0.508) (xy 5.842 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 2.286) (xy 5.842 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 2.54) (xy 7.62 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 7.62 0) (xy 5.842 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.842 1.778) (xy 8.382 1.778) (xy 8.382 -1.778) (xy 5.842 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.366 0) (xy 6.35 0.381) (xy 6.35 -0.381) (xy 7.366 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.874 -0.508) (xy 8.001 -0.381) (xy 8.763 -0.381) (xy 8.89 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 8.382 -0.381) (xy 8.001 0.254) (xy 8.763 0.254) (xy 8.382 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 6.731 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 7.62 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 7.62 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "PMOS G040P04M_1_1"
+				(pin input line
+					(at 0 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sullivan-Labs:MCU STM32G473")
+		(at 55.88 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86b377a9-0fea-47a2-8d35-a6e8d6f45d77")
+		(property "Reference" "U1"
+			(at 91.44 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "STM32G473CBT3"
+			(at 91.44 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Sullivan-Labs:LQFP48-7x7mm"
+			(at 55.88 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "STM32G473CBT3"
+			(at 55.88 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ARM® Cortex®-M4 STM32G4 Microcontroller IC 32-Bit 170MHz 128KB (128K x 8) FLASH 48-LQFP (7x7)"
+			(at 55.88 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 55.88 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "STM32G473CBT3"
+			(at 55.88 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "34"
+			(uuid "714617c4-808a-41f0-a1f4-5aa5d18470ac")
+		)
+		(pin "21"
+			(uuid "c6cbd922-d2db-4dee-950b-d09e90ed6509")
+		)
+		(pin "36"
+			(uuid "cacf35fa-ebbe-4e81-892b-73c0a729aeb5")
+		)
+		(pin "9"
+			(uuid "3e661a98-ac67-4aec-b5c2-2e7f21cebb20")
+		)
+		(pin "4"
+			(uuid "0fe4f6d3-8f06-44a5-8823-d0fd4e0e027f")
+		)
+		(pin "43"
+			(uuid "8ab4fd5c-1d6e-4dff-bd14-212a1b144160")
+		)
+		(pin "32"
+			(uuid "bfa2d285-53d3-4fa0-ace1-238dedf457ac")
+		)
+		(pin "27"
+			(uuid "58dbf2d4-1650-4706-be90-dced7e487865")
+		)
+		(pin "46"
+			(uuid "fbc096b1-d6dd-4f78-9b91-71706acc8b34")
+		)
+		(pin "23"
+			(uuid "9cc1a7e9-715b-4d6e-ba2c-3b2486997a11")
+		)
+		(pin "20"
+			(uuid "06ad014c-1299-4f51-9737-581c7eb92dea")
+		)
+		(pin "38"
+			(uuid "6828a73e-e2f2-4ab5-8fff-3be932b699d0")
+		)
+		(pin "22"
+			(uuid "d762e4df-c8a8-44ef-a84e-ba3e9757d9bd")
+		)
+		(pin "29"
+			(uuid "0805ce03-ca07-4d34-a2b2-5a3699fc3a8c")
+		)
+		(pin "25"
+			(uuid "ec23ce55-1370-4868-ba42-57fe4a64e513")
+		)
+		(pin "45"
+			(uuid "9b9a0a3f-a5ed-4c55-b911-295a6769aad5")
+		)
+		(pin "10"
+			(uuid "5401ae63-7bcc-4f02-89cb-88603418d147")
+		)
+		(pin "11"
+			(uuid "5b47581b-9a32-446f-a750-e64773cf5abd")
+		)
+		(pin "14"
+			(uuid "6b6e220c-07f4-415f-ae0b-c7fb46bd7321")
+		)
+		(pin "13"
+			(uuid "366251b4-0ea0-434a-b2ad-76c514e9d1ce")
+		)
+		(pin "12"
+			(uuid "b300435a-fc76-4b1a-aede-8a3e6807b7d1")
+		)
+		(pin "44"
+			(uuid "b9720c98-049d-4a07-a11c-784a25afabc6")
+		)
+		(pin "1"
+			(uuid "d57dc5d0-6284-4c12-aa6b-2291caca8d18")
+		)
+		(pin "19"
+			(uuid "0d1794c2-ae46-4af4-9223-69849ec8d63d")
+		)
+		(pin "3"
+			(uuid "ef9d868f-7cf7-4ceb-b186-edf6e58bae96")
+		)
+		(pin "5"
+			(uuid "1aadd049-aec1-4f00-ac08-6c08634f46c6")
+		)
+		(pin "6"
+			(uuid "849742cd-37d5-4cd6-a5a8-6defa5ec5bad")
+		)
+		(pin "42"
+			(uuid "49853042-d781-4e62-a9bf-af0d2b412932")
+		)
+		(pin "40"
+			(uuid "b13e6cb0-d268-4be7-991b-753f6c8e8874")
+		)
+		(pin "28"
+			(uuid "a77bbc81-fcf3-4d39-a142-f52d201c794c")
+		)
+		(pin "37"
+			(uuid "362b9b41-1e3a-4585-ac29-40857af33b25")
+		)
+		(pin "47"
+			(uuid "7d84cf20-f7ac-43dd-aae2-857cb7278be3")
+		)
+		(pin "7"
+			(uuid "ba9f61f5-e4e9-4e8a-9690-fa6019b38342")
+		)
+		(pin "24"
+			(uuid "fda83a8d-a17a-4a30-9001-9d65e6dc74c9")
+		)
+		(pin "18"
+			(uuid "6e1e19b5-529e-4168-999a-9a7c85a0c7d1")
+		)
+		(pin "2"
+			(uuid "fe14b302-86b8-4855-9a45-f30b62580b6e")
+		)
+		(pin "48"
+			(uuid "df66f093-104b-42d3-a597-5b133ce7965a")
+		)
+		(pin "31"
+			(uuid "64bfc77c-55e3-4540-9ebb-0b4e3535bb33")
+		)
+		(pin "41"
+			(uuid "f2ac0fd6-9aba-4dda-8c34-e4ee12b80b36")
+		)
+		(pin "39"
+			(uuid "ff47437b-bf04-4c49-b246-b516e1744bf2")
+		)
+		(pin "30"
+			(uuid "4e672bfe-c574-4e8e-bfbc-9d8fdf92c02c")
+		)
+		(pin "33"
+			(uuid "d16fd762-07d4-466f-9586-be073b4fbcc8")
+		)
+		(pin "8"
+			(uuid "9dd7b2b4-61f8-4eef-bd16-ee5758f4ddbe")
+		)
+		(pin "35"
+			(uuid "4cae1298-63b9-440f-a809-f3519048408b")
+		)
+		(pin "17"
+			(uuid "af8da385-07ef-47c5-b8cc-1e1bb9820d39")
+		)
+		(pin "15"
+			(uuid "6d6b7012-5f98-4491-860b-f3677c8e7954")
+		)
+		(pin "16"
+			(uuid "29b20bc7-4343-4e7c-b6ce-9c8646b3dfe4")
+		)
+		(pin "26"
+			(uuid "b7a1faea-32b8-4d03-a8a3-dffa40b3f4c2")
+		)
+		(instances
+			(project ""
+				(path "/d013d610-c58f-4b11-9d18-37fc135ac516"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sullivan-Labs:PMOS G040P04M")
+		(at 187.96 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ff23a27-502d-474a-b03d-c4db60738b25")
+		(property "Reference" "Q1"
+			(at 199.39 119.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "G040P04M"
+			(at 199.39 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Sullivan-Labs:TO-263-3, D2PAK"
+			(at 193.04 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 198.12 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOSFET P-CH 40V 222A 312W TO-263"
+			(at 187.96 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Goford Semiconductor"
+			(at 187.96 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "G040P04M"
+			(at 193.04 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "80121d43-21dd-4105-b32d-794f8f7f7967")
+		)
+		(pin "3"
+			(uuid "3b9cbdb0-a664-4e24-8bb8-6f75a49e2f19")
+		)
+		(pin "1"
+			(uuid "88e2ff9f-d82a-4a95-8f47-261bbee3de60")
+		)
+		(instances
+			(project ""
+				(path "/d013d610-c58f-4b11-9d18-37fc135ac516"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sullivan-Labs:MCU STM32G473")
+		(at 194.31 52.07 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f11910b6-f131-434e-9229-c3cb641224ee")
+		(property "Reference" "U1"
+			(at 214.63 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "STM32G473CBT3"
+			(at 214.63 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Sullivan-Labs:LQFP48-7x7mm"
+			(at 194.31 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "STM32G473CBT3"
+			(at 194.31 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ARM® Cortex®-M4 STM32G4 Microcontroller IC 32-Bit 170MHz 128KB (128K x 8) FLASH 48-LQFP (7x7)"
+			(at 194.31 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 194.31 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "STM32G473CBT3"
+			(at 194.31 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "34"
+			(uuid "714617c4-808a-41f0-a1f4-5aa5d18470ad")
+		)
+		(pin "21"
+			(uuid "c6cbd922-d2db-4dee-950b-d09e90ed650a")
+		)
+		(pin "36"
+			(uuid "cacf35fa-ebbe-4e81-892b-73c0a729aeb6")
+		)
+		(pin "9"
+			(uuid "3e661a98-ac67-4aec-b5c2-2e7f21cebb21")
+		)
+		(pin "4"
+			(uuid "0fe4f6d3-8f06-44a5-8823-d0fd4e0e0280")
+		)
+		(pin "43"
+			(uuid "8ab4fd5c-1d6e-4dff-bd14-212a1b144161")
+		)
+		(pin "32"
+			(uuid "bfa2d285-53d3-4fa0-ace1-238dedf457ad")
+		)
+		(pin "27"
+			(uuid "58dbf2d4-1650-4706-be90-dced7e487866")
+		)
+		(pin "46"
+			(uuid "fbc096b1-d6dd-4f78-9b91-71706acc8b35")
+		)
+		(pin "23"
+			(uuid "9cc1a7e9-715b-4d6e-ba2c-3b2486997a12")
+		)
+		(pin "20"
+			(uuid "06ad014c-1299-4f51-9737-581c7eb92deb")
+		)
+		(pin "38"
+			(uuid "6828a73e-e2f2-4ab5-8fff-3be932b699d1")
+		)
+		(pin "22"
+			(uuid "d762e4df-c8a8-44ef-a84e-ba3e9757d9be")
+		)
+		(pin "29"
+			(uuid "0805ce03-ca07-4d34-a2b2-5a3699fc3a8d")
+		)
+		(pin "25"
+			(uuid "ec23ce55-1370-4868-ba42-57fe4a64e514")
+		)
+		(pin "45"
+			(uuid "9b9a0a3f-a5ed-4c55-b911-295a6769aad6")
+		)
+		(pin "10"
+			(uuid "5401ae63-7bcc-4f02-89cb-88603418d148")
+		)
+		(pin "11"
+			(uuid "5b47581b-9a32-446f-a750-e64773cf5abe")
+		)
+		(pin "14"
+			(uuid "6b6e220c-07f4-415f-ae0b-c7fb46bd7322")
+		)
+		(pin "13"
+			(uuid "366251b4-0ea0-434a-b2ad-76c514e9d1cf")
+		)
+		(pin "12"
+			(uuid "b300435a-fc76-4b1a-aede-8a3e6807b7d2")
+		)
+		(pin "44"
+			(uuid "b9720c98-049d-4a07-a11c-784a25afabc7")
+		)
+		(pin "1"
+			(uuid "d57dc5d0-6284-4c12-aa6b-2291caca8d19")
+		)
+		(pin "19"
+			(uuid "0d1794c2-ae46-4af4-9223-69849ec8d63e")
+		)
+		(pin "3"
+			(uuid "ef9d868f-7cf7-4ceb-b186-edf6e58bae97")
+		)
+		(pin "5"
+			(uuid "1aadd049-aec1-4f00-ac08-6c08634f46c7")
+		)
+		(pin "6"
+			(uuid "849742cd-37d5-4cd6-a5a8-6defa5ec5bae")
+		)
+		(pin "42"
+			(uuid "49853042-d781-4e62-a9bf-af0d2b412933")
+		)
+		(pin "40"
+			(uuid "b13e6cb0-d268-4be7-991b-753f6c8e8875")
+		)
+		(pin "28"
+			(uuid "a77bbc81-fcf3-4d39-a142-f52d201c794d")
+		)
+		(pin "37"
+			(uuid "362b9b41-1e3a-4585-ac29-40857af33b26")
+		)
+		(pin "47"
+			(uuid "7d84cf20-f7ac-43dd-aae2-857cb7278be4")
+		)
+		(pin "7"
+			(uuid "ba9f61f5-e4e9-4e8a-9690-fa6019b38343")
+		)
+		(pin "24"
+			(uuid "fda83a8d-a17a-4a30-9001-9d65e6dc74ca")
+		)
+		(pin "18"
+			(uuid "6e1e19b5-529e-4168-999a-9a7c85a0c7d2")
+		)
+		(pin "2"
+			(uuid "fe14b302-86b8-4855-9a45-f30b62580b6f")
+		)
+		(pin "48"
+			(uuid "df66f093-104b-42d3-a597-5b133ce7965b")
+		)
+		(pin "31"
+			(uuid "64bfc77c-55e3-4540-9ebb-0b4e3535bb34")
+		)
+		(pin "41"
+			(uuid "f2ac0fd6-9aba-4dda-8c34-e4ee12b80b37")
+		)
+		(pin "39"
+			(uuid "ff47437b-bf04-4c49-b246-b516e1744bf3")
+		)
+		(pin "30"
+			(uuid "4e672bfe-c574-4e8e-bfbc-9d8fdf92c02d")
+		)
+		(pin "33"
+			(uuid "d16fd762-07d4-466f-9586-be073b4fbcc9")
+		)
+		(pin "8"
+			(uuid "9dd7b2b4-61f8-4eef-bd16-ee5758f4ddbf")
+		)
+		(pin "35"
+			(uuid "4cae1298-63b9-440f-a809-f3519048408c")
+		)
+		(pin "17"
+			(uuid "af8da385-07ef-47c5-b8cc-1e1bb9820d3a")
+		)
+		(pin "15"
+			(uuid "6d6b7012-5f98-4491-860b-f3677c8e7955")
+		)
+		(pin "16"
+			(uuid "29b20bc7-4343-4e7c-b6ce-9c8646b3dfe5")
+		)
+		(pin "26"
+			(uuid "b7a1faea-32b8-4d03-a8a3-dffa40b3f4c3")
+		)
+		(instances
+			(project ""
+				(path "/d013d610-c58f-4b11-9d18-37fc135ac516"
+					(reference "U1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 52.07 153.67)
+		(size 27.94 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7b650159-18e3-4a88-b5a2-506e6fe9f3ef")
+		(property "Sheetname" "Outputs"
+			(at 52.07 152.9584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "outputs.kicad_sch"
+			(at 52.07 169.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cooler-master"
+				(path "/d013d610-c58f-4b11-9d18-37fc135ac516"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
