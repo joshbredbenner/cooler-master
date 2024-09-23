@@ -5,6 +5,254 @@
 	(uuid "1e713d9a-d379-4cc7-a86e-4ca69fd17909")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Sullivan-Labs:IC MCP2542FD CAN Transceiver"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 20.32 10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "MCP2542FD"
+				(at 20.32 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "Sullivan-Labs:SOIC8_4P9X3P9MC_MCH"
+				(at 5.842 -28.448 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "CAN Transceiver with VIO"
+				(at 4.826 -20.574 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Microchip Technology"
+				(at 5.08 -21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PN" "MCP2542FD-E/SN"
+				(at 5.334 -20.828 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "MCP2542FD-E/SN CAN Transceiver"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC8_4P9X3P9MC_MCH SOIC8_4P9X3P9MC_MCH-M SOIC8_4P9X3P9MC_MCH-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "IC MCP2542FD CAN Transceiver_0_1"
+				(pin input line
+					(at 30.48 -10.16 180)
+					(length 7.62)
+					(name "TXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -15.24 0)
+					(length 7.62)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 7.62)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 30.48 -12.7 180)
+					(length 7.62)
+					(name "RXD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 0 -2.54 0)
+					(length 7.62)
+					(name "VIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 30.48 -2.54 180)
+					(length 7.62)
+					(name "CANL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 30.48 0 180)
+					(length 7.62)
+					(name "CANH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 30.48 -15.24 180)
+					(length 7.62)
+					(name "STBY"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "IC MCP2542FD CAN Transceiver_1_1"
+				(rectangle
+					(start 7.62 1.905)
+					(end 22.86 -17.145)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+		)
 		(symbol "Sullivan-Labs:MCU STM32G473"
 			(pin_names
 				(offset 0.254)
@@ -1215,6 +1463,112 @@
 				(path "/d013d610-c58f-4b11-9d18-37fc135ac516/ddbda7f4-3933-4f27-89fe-4c477c945179"
 					(reference "U1")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sullivan-Labs:IC MCP2542FD CAN Transceiver")
+		(at 203.2 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e964033e-d092-4a53-9186-c2da0403baa0")
+		(property "Reference" "U3"
+			(at 218.44 118.11 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "MCP2542FD"
+			(at 218.44 120.65 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "Sullivan-Labs:SOIC8_4P9X3P9MC_MCH"
+			(at 209.042 152.908 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CAN Transceiver with VIO"
+			(at 208.026 145.034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Microchip Technology"
+			(at 208.28 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "MCP2542FD-E/SN"
+			(at 208.534 145.288 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e8fc1a4-05f4-459f-b88f-70bf50e92382")
+		)
+		(pin "4"
+			(uuid "2ee9d8b5-da0d-462d-b715-f95e07dd77ad")
+		)
+		(pin "3"
+			(uuid "7d9f10a2-8d75-4346-bf0e-e48dad822a47")
+		)
+		(pin "2"
+			(uuid "48bd2d99-1d11-4134-b1e9-e3347635a825")
+		)
+		(pin "5"
+			(uuid "41041edc-c1ef-4ead-a6d0-45bd3d2d22e3")
+		)
+		(pin "8"
+			(uuid "ad938e36-4d6a-47d0-9eb2-c0432433ae83")
+		)
+		(pin "7"
+			(uuid "dbe6adef-f3f9-4506-a47f-4875c2cd056b")
+		)
+		(pin "6"
+			(uuid "ff32e01a-5231-4fc5-a02a-9b64609b0009")
+		)
+		(instances
+			(project ""
+				(path "/d013d610-c58f-4b11-9d18-37fc135ac516/ddbda7f4-3933-4f27-89fe-4c477c945179"
+					(reference "U3")
+					(unit 1)
 				)
 			)
 		)
