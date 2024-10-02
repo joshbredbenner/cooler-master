@@ -3304,6 +3304,193 @@
 				)
 			)
 		)
+		(symbol "Sullivan-Labs:RES_110R_0402"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "110R .1%"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Sullivan-Labs:R_0402_1005Metric"
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "110Ohm .1% 0402 Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "YAGEO"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PN" "RT0402BRD07110RL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "110R 0402 Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RES_110R_0402_0_1"
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RES_110R_0402_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Sullivan-Labs:RES_510R_0402"
 			(pin_numbers hide)
 			(pin_names
@@ -3453,6 +3640,193 @@
 				)
 			)
 			(symbol "RES_510R_0402_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Sullivan-Labs:RES_750R_0402"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "750R .1%"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Sullivan-Labs:R_0402_1005Metric"
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "750Ohm .1% 0402 Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Vishay / Beyschlag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PN" "MCS04020D7500BE000"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "750R 0402 Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RES_750R_0402_0_1"
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RES_750R_0402_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -4213,6 +4587,12 @@
 		(uuid "0e4cecf0-cfcd-490c-9767-021a4db2b634")
 	)
 	(junction
+		(at 234.95 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16130192-1119-47b5-8cef-c9d06c1d2d43")
+	)
+	(junction
 		(at 246.38 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4283,6 +4663,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "536ff205-ba46-4f63-9168-c4e6c375912f")
+	)
+	(junction
+		(at 226.06 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "587ee5e6-2a36-4179-9707-d46724063f1e")
 	)
 	(junction
 		(at 224.79 114.3)
@@ -4453,6 +4839,12 @@
 		(uuid "d5e5c8b4-01f5-4bcc-ba7c-b2b0d5b1509a")
 	)
 	(junction
+		(at 226.06 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d6d58762-a1d3-4b89-b000-c2730f953b18")
+	)
+	(junction
 		(at 207.01 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4527,6 +4919,16 @@
 			(type default)
 		)
 		(uuid "05561d6e-16a1-4f87-9e98-279949db5e96")
+	)
+	(wire
+		(pts
+			(xy 242.57 156.21) (xy 234.95 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "056bd930-876c-447b-8aad-34665fe74002")
 	)
 	(wire
 		(pts
@@ -4750,6 +5152,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 154.94) (xy 234.95 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ceebdde-894a-404e-9b03-55c6db8ed0c4")
+	)
+	(wire
+		(pts
 			(xy 160.02 67.31) (xy 170.18 67.31)
 		)
 		(stroke
@@ -4960,6 +5372,16 @@
 	)
 	(wire
 		(pts
+			(xy 226.06 134.62) (xy 242.57 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f263969-f80e-48d2-ac33-8eafc72309b8")
+	)
+	(wire
+		(pts
 			(xy 252.73 44.45) (xy 252.73 45.72)
 		)
 		(stroke
@@ -5010,7 +5432,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 134.62) (xy 242.57 134.62)
+			(xy 222.25 134.62) (xy 226.06 134.62)
 		)
 		(stroke
 			(width 0)
@@ -5160,6 +5582,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 144.78) (xy 242.57 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e29db98-946d-4a87-9bd6-e17210265fb8")
+	)
+	(wire
+		(pts
 			(xy 163.83 35.56) (xy 170.18 35.56)
 		)
 		(stroke
@@ -5187,6 +5619,16 @@
 			(type default)
 		)
 		(uuid "75986bf5-eaab-4d81-9536-401a23493be6")
+	)
+	(wire
+		(pts
+			(xy 226.06 146.05) (xy 226.06 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a013e2d-c501-4268-983a-063ba8943599")
 	)
 	(wire
 		(pts
@@ -5227,6 +5669,16 @@
 			(type default)
 		)
 		(uuid "89b37ad1-693a-47b2-886a-bfff10503f30")
+	)
+	(wire
+		(pts
+			(xy 226.06 154.94) (xy 226.06 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ac278ed-907f-4494-83a8-b6e8b900dab4")
 	)
 	(wire
 		(pts
@@ -5410,6 +5862,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 156.21) (xy 226.06 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adaa9205-ca94-4793-b4ee-d55f1db07137")
+	)
+	(wire
+		(pts
 			(xy 217.17 114.3) (xy 224.79 114.3)
 		)
 		(stroke
@@ -5467,6 +5929,26 @@
 			(type default)
 		)
 		(uuid "b6f94f99-ad2c-4435-9305-8fdecd5d1fde")
+	)
+	(wire
+		(pts
+			(xy 234.95 146.05) (xy 226.06 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b838a86e-e2fc-49e3-9b55-f22ac049a546")
+	)
+	(wire
+		(pts
+			(xy 226.06 144.78) (xy 226.06 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b94c7557-64bd-4b31-a091-9d4e86d578dc")
 	)
 	(wire
 		(pts
@@ -5557,6 +6039,26 @@
 			(type default)
 		)
 		(uuid "c490ffc9-7ac2-44fb-9692-a15590851514")
+	)
+	(wire
+		(pts
+			(xy 226.06 134.62) (xy 226.06 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6529d3a-4dfd-49e8-9fed-7d4cc9d1f8ce")
+	)
+	(wire
+		(pts
+			(xy 220.98 146.05) (xy 226.06 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9a40170-d5c0-42d9-bfd5-9a6a8582f22f")
 	)
 	(wire
 		(pts
@@ -5657,6 +6159,16 @@
 			(type default)
 		)
 		(uuid "ddf40276-604a-4492-8b72-0308e9a3c7d7")
+	)
+	(wire
+		(pts
+			(xy 234.95 147.32) (xy 234.95 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df782474-e150-4853-a15f-10a9865d9949")
 	)
 	(wire
 		(pts
@@ -7492,6 +8004,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Sullivan-Labs:RES_750R_0402")
+		(at 226.06 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "65d616fa-5773-46f3-a92c-010d213145df")
+		(property "Reference" "R12"
+			(at 220.472 151.384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "750R .1%"
+			(at 228.346 155.956 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Sullivan-Labs:R_0402_1005Metric"
+			(at 227.076 151.384 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "750Ohm .1% 0402 Resistor"
+			(at 226.06 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay / Beyschlag"
+			(at 226.06 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "MCS04020D7500BE000"
+			(at 226.06 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a42a81e3-3dc0-46ab-a03f-48a03f82f06f")
+		)
+		(pin "1"
+			(uuid "db2ccecd-ef84-4d60-9c97-e139344aa9a5")
+		)
+		(instances
+			(project ""
+				(path "/d013d610-c58f-4b11-9d18-37fc135ac516/2fe0b40e-9c10-4ff0-b2cd-5720581d147f"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Sullivan-Labs:CAP_22uF_35V_0805")
 		(at 223.52 40.64 0)
 		(unit 1)
@@ -7990,6 +8589,71 @@
 			(project "cooler-master"
 				(path "/d013d610-c58f-4b11-9d18-37fc135ac516/2fe0b40e-9c10-4ff0-b2cd-5720581d147f"
 					(reference "FB1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 234.95 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7805a374-942d-420e-9bd2-c9e5eefe3d23")
+		(property "Reference" "#PWR017"
+			(at 234.95 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 234.95 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.95 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 234.95 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3c0b5826-a357-4fce-b3a1-7c17df309ffc")
+		)
+		(instances
+			(project "cooler-master"
+				(path "/d013d610-c58f-4b11-9d18-37fc135ac516/2fe0b40e-9c10-4ff0-b2cd-5720581d147f"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -9389,6 +10053,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Sullivan-Labs:RES_110R_0402")
+		(at 226.06 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e3ef75eb-27e3-417f-990f-f0c99d066a15")
+		(property "Reference" "R11"
+			(at 220.726 141.224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "110R .1%"
+			(at 228.346 145.034 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Sullivan-Labs:R_0402_1005Metric"
+			(at 227.076 141.224 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "110Ohm .1% 0402 Resistor"
+			(at 226.06 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "YAGEO"
+			(at 226.06 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "RT0402BRD07110RL"
+			(at 226.06 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3b72ed02-9059-430b-add5-090319efaf02")
+		)
+		(pin "1"
+			(uuid "0b81fc15-3179-490d-895d-60705f77843f")
+		)
+		(instances
+			(project ""
+				(path "/d013d610-c58f-4b11-9d18-37fc135ac516/2fe0b40e-9c10-4ff0-b2cd-5720581d147f"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VDC")
 		(at 55.88 34.29 0)
 		(unit 1)
@@ -9448,6 +10199,93 @@
 			(project ""
 				(path "/d013d610-c58f-4b11-9d18-37fc135ac516/2fe0b40e-9c10-4ff0-b2cd-5720581d147f"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sullivan-Labs:CAP_10uF_25V_0805")
+		(at 234.95 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e865257a-0b58-43a0-a4a0-544263299a41")
+		(property "Reference" "C26"
+			(at 230.886 149.098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF 25V"
+			(at 229.87 153.416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Sullivan-Labs:C_0805_2012Metric"
+			(at 235.9152 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 234.95 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10uF 25V 10% 0805 Capacitor"
+			(at 234.95 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 234.95 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "CL21A106KAYNNNE"
+			(at 234.95 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b2b96c5c-780e-4d6e-a885-a5c535b795d1")
+		)
+		(pin "1"
+			(uuid "56924627-ded0-4e6b-a1a9-cadb83bfe982")
+		)
+		(instances
+			(project ""
+				(path "/d013d610-c58f-4b11-9d18-37fc135ac516/2fe0b40e-9c10-4ff0-b2cd-5720581d147f"
+					(reference "C26")
 					(unit 1)
 				)
 			)
