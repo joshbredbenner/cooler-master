@@ -311,6 +311,159 @@
 				)
 			)
 		)
+		(symbol "Sullivan-Labs:CAP_10uF_25V_0805"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "10uF 25V"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Sullivan-Labs:C_0805_2012Metric"
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "10uF 25V 10% 0805 Capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Samsung Electro-Mechanics"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "PN" "CL21A106KAYNNNE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "10uF 25V 0805 Capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CAP_10uF_25V_0805_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CAP_10uF_25V_0805_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Sullivan-Labs:CAP_10uF_50V_0805"
 			(pin_numbers hide)
 			(pin_names
@@ -1774,7 +1927,174 @@
 				)
 			)
 		)
-		(symbol "Sullivan-Labs:NMOS 190mA 60V"
+		(symbol "Sullivan-Labs:LDO Adj 1A 20V"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 41.91 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "NCV1117STAT3G"
+				(at 41.91 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "Sullivan-Labs:SOT230P700X180-4N"
+				(at 41.91 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NCP1117-D.PDF"
+				(at 41.91 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "ON SEMICONDUCTOR - NCV1117STAT3G - LDO Voltage Regulator, Adjustable, 20V in, 1.07V drop, 1.25V to 18.8V/1A out, SOT-223-3"
+				(at -1.524 -15.748 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1.8"
+				(at 41.91 -394.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "onsemi"
+				(at 41.91 -694.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "PN" "NCV1117STAT3G"
+				(at 41.91 -794.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "LDO Adj 1A 20V_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 25.4 -13.97)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 30.48 -11.43 180)
+					(length 5.08)
+					(name "ADJUST/GROUND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 -3.81 180)
+					(length 5.08)
+					(name "OUTPUT_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "INPUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 30.48 0 180)
+					(length 5.08)
+					(name "OUTPUT_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Sullivan-Labs:NMOS 320mA 60V"
 			(pin_numbers hide)
 			(pin_names hide)
 			(exclude_from_sim no)
@@ -1789,7 +2109,7 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "2N7002NXAKR"
+			(property "Value" "2N7002KT1G"
 				(at 11.43 1.27 0)
 				(effects
 					(font
@@ -1808,7 +2128,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/2N7002NXAK.pdf"
+			(property "Datasheet" ""
 				(at 11.43 -198.73 0)
 				(effects
 					(font
@@ -1818,7 +2138,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "NEXPERIA - 2N7002NXAKR - MOSFET Transistor, Trench, N Channel, 190 mA, 60 V, 3 ohm, 10 V, 1.6 V"
+			(property "Description" "MOSFET N-CH 60V 320MA SOT23-3"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1827,7 +2147,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer" "Nexperia"
+			(property "Manufacturer" "onsemi"
 				(at 11.43 -698.73 0)
 				(effects
 					(font
@@ -1837,7 +2157,7 @@
 					(hide yes)
 				)
 			)
-			(property "PN" "2N7002NXAKR"
+			(property "PN" "2N7002KT1G"
 				(at 11.43 -798.73 0)
 				(effects
 					(font
@@ -1847,7 +2167,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "NMOS 190mA 60V_0_0"
+			(symbol "NMOS 320mA 60V_0_0"
 				(polyline
 					(pts
 						(xy 2.54 2.54) (xy 2.54 -2.54)
@@ -2087,7 +2407,7 @@
 					)
 				)
 			)
-			(symbol "NMOS 190mA 60V_1_1"
+			(symbol "NMOS 320mA 60V_1_1"
 				(pin passive line
 					(at 0 0 0)
 					(length 2.54)
@@ -3171,6 +3491,126 @@
 				)
 			)
 		)
+		(symbol "power:+10V"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+10V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+10V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+10V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+10V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "power:+12V"
 			(power)
 			(pin_numbers hide)
@@ -3839,6 +4279,12 @@
 		(uuid "51ff4782-cf25-45bd-9941-936706b3a2d9")
 	)
 	(junction
+		(at 222.25 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "536ff205-ba46-4f63-9168-c4e6c375912f")
+	)
+	(junction
 		(at 224.79 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3867,6 +4313,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6e098e25-d6db-4f93-9418-36e8ba3ff5cd")
+	)
+	(junction
+		(at 242.57 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7106c597-8c1d-448a-990d-a56c4f196227")
 	)
 	(junction
 		(at 243.84 35.56)
@@ -3945,6 +4397,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bb361aa9-69d8-4bed-b1d8-7a7fe7f6667d")
+	)
+	(junction
+		(at 187.96 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bed77968-5e97-4fad-af12-5d3d88b20b11")
 	)
 	(junction
 		(at 181.61 80.01)
@@ -4092,6 +4550,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 134.62) (xy 187.96 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a6997ff-5e4e-4c56-b59b-b48d048f659c")
+	)
+	(wire
+		(pts
 			(xy 193.04 44.45) (xy 193.04 45.72)
 		)
 		(stroke
@@ -4219,6 +4687,16 @@
 			(type default)
 		)
 		(uuid "20a1bae4-f541-4721-8823-14316bc97fcb")
+	)
+	(wire
+		(pts
+			(xy 222.25 134.62) (xy 222.25 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "216e2f45-454c-4c5b-be0e-8f11b0130da4")
 	)
 	(wire
 		(pts
@@ -4422,6 +4900,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 134.62) (xy 190.5 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "490f52bc-bd10-4737-87f2-fbd2d12009a9")
+	)
+	(wire
+		(pts
 			(xy 223.52 35.56) (xy 223.52 36.83)
 		)
 		(stroke
@@ -4522,6 +5010,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 134.62) (xy 242.57 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a55a34c-0e1d-4fec-86d0-4ac0e50f08aa")
+	)
+	(wire
+		(pts
 			(xy 224.79 67.31) (xy 234.95 67.31)
 		)
 		(stroke
@@ -4599,6 +5097,16 @@
 			(type default)
 		)
 		(uuid "626567f8-e006-4ebf-acd4-556fa9ffdf38")
+	)
+	(wire
+		(pts
+			(xy 220.98 138.43) (xy 222.25 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "650a19f8-5450-48ce-972d-6adc08bbf1cd")
 	)
 	(wire
 		(pts
@@ -4792,6 +5300,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 137.16) (xy 242.57 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "904ea5e0-18f3-4567-ba7f-7645e02f9c98")
+	)
+	(wire
+		(pts
 			(xy 181.61 76.2) (xy 181.61 80.01)
 		)
 		(stroke
@@ -4972,6 +5490,16 @@
 	)
 	(wire
 		(pts
+			(xy 220.98 134.62) (xy 222.25 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bac49eac-67d5-43b8-9552-1ef246a6a3ca")
+	)
+	(wire
+		(pts
 			(xy 234.95 67.31) (xy 234.95 68.58)
 		)
 		(stroke
@@ -5009,6 +5537,16 @@
 			(type default)
 		)
 		(uuid "c3cc39d3-64bc-4aee-bf97-aeb2c5892ea7")
+	)
+	(wire
+		(pts
+			(xy 180.34 134.62) (xy 187.96 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c43524c7-6de8-46d0-bc75-2ab690025153")
 	)
 	(wire
 		(pts
@@ -5260,6 +5798,27 @@
 		)
 		(uuid "fca25add-4f9e-4961-81f5-83bceccff2fd")
 	)
+	(text_box "Vout = Vref(1+R2/R1) + IadjR2\nVref = 1.25V\nIadj = 52uA\nRecommended R1 = 100Ohm"
+		(exclude_from_sim no)
+		(at 177.8 151.13 0)
+		(size 35.56 10.16)
+		(stroke
+			(width 0)
+			(type default)
+			(color 132 0 0 1)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "134485f2-a27d-49a3-9ffa-f004e91c18ab")
+	)
 	(label "V_FILT"
 		(at 139.7 67.31 0)
 		(fields_autoplaced yes)
@@ -5270,6 +5829,17 @@
 			(justify left bottom)
 		)
 		(uuid "8f9fbbc6-4709-40e9-bcca-5938543ffa42")
+	)
+	(label "V_FILT"
+		(at 180.34 134.62 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "96983778-9682-4cff-921f-3612ea41074f")
 	)
 	(label "V_FILT"
 		(at 255.27 35.56 0)
@@ -5386,6 +5956,93 @@
 			(project "cooler-master"
 				(path "/d013d610-c58f-4b11-9d18-37fc135ac516/2fe0b40e-9c10-4ff0-b2cd-5720581d147f"
 					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sullivan-Labs:CAP_10uF_25V_0805")
+		(at 187.96 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "053aaf76-a313-438e-a8c8-f506df149ccf")
+		(property "Reference" "C24"
+			(at 183.642 138.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF 25V"
+			(at 182.626 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Sullivan-Labs:C_0805_2012Metric"
+			(at 188.9252 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10uF 25V 10% 0805 Capacitor"
+			(at 187.96 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 187.96 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "CL21A106KAYNNNE"
+			(at 187.96 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a880c74-e990-4606-a03e-48205ffecc06")
+		)
+		(pin "2"
+			(uuid "e7dd3c1f-a26e-4bd6-8a91-714d3b3a1e92")
+		)
+		(instances
+			(project ""
+				(path "/d013d610-c58f-4b11-9d18-37fc135ac516/2fe0b40e-9c10-4ff0-b2cd-5720581d147f"
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -6336,6 +6993,112 @@
 		)
 	)
 	(symbol
+		(lib_id "Sullivan-Labs:LDO Adj 1A 20V")
+		(at 190.5 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4ce42981-4bea-47fc-a390-a94c375f4573")
+		(property "Reference" "U6"
+			(at 205.74 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NCV1117STAT3G"
+			(at 205.74 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Sullivan-Labs:SOT230P700X180-4N"
+			(at 232.41 229.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NCP1117-D.PDF"
+			(at 232.41 329.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "ON SEMICONDUCTOR - NCV1117STAT3G - LDO Voltage Regulator, Adjustable, 20V in, 1.07V drop, 1.25V to 18.8V/1A out, SOT-223-3"
+			(at 188.976 150.368 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.8"
+			(at 232.41 529.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 232.41 829.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "PN" "NCV1117STAT3G"
+			(at 232.41 929.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e30c5898-dcc2-4a09-b131-8bc48c698764")
+		)
+		(pin "1"
+			(uuid "25ef1f9f-e0b0-4271-a623-5cb552e6e983")
+		)
+		(pin "4"
+			(uuid "edccfffa-979f-4404-85e6-bbb6978f8c3b")
+		)
+		(pin "3"
+			(uuid "c873e3cf-08d7-4c07-867d-b488a2631f74")
+		)
+		(instances
+			(project ""
+				(path "/d013d610-c58f-4b11-9d18-37fc135ac516/2fe0b40e-9c10-4ff0-b2cd-5720581d147f"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Sullivan-Labs:RES_100k_0402")
 		(at 73.66 62.23 0)
 		(unit 1)
@@ -6816,6 +7579,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+10V")
+		(at 242.57 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6e4fec79-1600-44d0-9d9a-3e135e3f4365")
+		(property "Reference" "#PWR016"
+			(at 242.57 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+10V"
+			(at 242.316 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+10V\""
+			(at 242.57 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f65ca782-b45e-4820-a94f-d3aaad7b18bf")
+		)
+		(instances
+			(project ""
+				(path "/d013d610-c58f-4b11-9d18-37fc135ac516/2fe0b40e-9c10-4ff0-b2cd-5720581d147f"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Sullivan-Labs:DIODE 30V 800mA 220mVf")
 		(at 163.83 35.56 180)
 		(unit 1)
@@ -7234,101 +8062,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Sullivan-Labs:NMOS 190mA 60V")
-		(at 76.2 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "855c3a61-973f-4a15-a2e4-4a718af59f60")
-		(property "Reference" "Q3"
-			(at 83.82 53.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7002NXAKR"
-			(at 83.82 55.8799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Sullivan-Labs:SOT95P230X110-3N"
-			(at 87.63 153.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/2N7002NXAK.pdf"
-			(at 87.63 253.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "NEXPERIA - 2N7002NXAKR - MOSFET Transistor, Trench, N Channel, 190 mA, 60 V, 3 ohm, 10 V, 1.6 V"
-			(at 76.2 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Nexperia"
-			(at 87.63 753.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "PN" "2N7002NXAKR"
-			(at 87.63 853.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fb299e93-cac6-4094-99de-065c49affe4f")
-		)
-		(pin "3"
-			(uuid "59e6d3b2-cf26-4e92-8bdf-ee2e2472e2c0")
-		)
-		(pin "2"
-			(uuid "90ad4c1e-34cf-4532-a5b0-07d9611b583f")
-		)
-		(instances
-			(project ""
-				(path "/d013d610-c58f-4b11-9d18-37fc135ac516/2fe0b40e-9c10-4ff0-b2cd-5720581d147f"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Sullivan-Labs:RES_100k_0402")
 		(at 63.5 40.64 0)
 		(unit 1)
@@ -7410,6 +8143,93 @@
 			(project "cooler-master"
 				(path "/d013d610-c58f-4b11-9d18-37fc135ac516/2fe0b40e-9c10-4ff0-b2cd-5720581d147f"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sullivan-Labs:CAP_10uF_25V_0805")
+		(at 242.57 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8eda7fd9-6d63-4d00-bbac-f8af1d964def")
+		(property "Reference" "C25"
+			(at 238.252 138.684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF 25V"
+			(at 237.236 143.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Sullivan-Labs:C_0805_2012Metric"
+			(at 243.5352 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 242.57 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10uF 25V 10% 0805 Capacitor"
+			(at 242.57 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics"
+			(at 242.57 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "CL21A106KAYNNNE"
+			(at 242.57 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "520149f8-c49b-442e-876f-40f664d8c80c")
+		)
+		(pin "2"
+			(uuid "0ab131ea-c13d-430c-807a-c79770b6705f")
+		)
+		(instances
+			(project "cooler-master"
+				(path "/d013d610-c58f-4b11-9d18-37fc135ac516/2fe0b40e-9c10-4ff0-b2cd-5720581d147f"
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -8790,6 +9610,101 @@
 			(project "cooler-master"
 				(path "/d013d610-c58f-4b11-9d18-37fc135ac516/2fe0b40e-9c10-4ff0-b2cd-5720581d147f"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sullivan-Labs:NMOS 320mA 60V")
+		(at 76.2 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f9670f76-5130-44f6-8449-27b95246dd6d")
+		(property "Reference" "Q3"
+			(at 83.82 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7002KT1G"
+			(at 83.82 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Sullivan-Labs:SOT95P230X110-3N"
+			(at 87.63 153.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 253.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "MOSFET N-CH 60V 320MA SOT23-3"
+			(at 76.2 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "onsemi"
+			(at 87.63 753.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "PN" "2N7002KT1G"
+			(at 87.63 853.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "857b3693-7caf-4d14-a6bd-557e905ef3b2")
+		)
+		(pin "1"
+			(uuid "3417de6e-3cdd-43dc-8aa9-15058b362380")
+		)
+		(pin "3"
+			(uuid "e0f769fd-ab26-473d-9a5c-b7dfc79bb3a2")
+		)
+		(instances
+			(project ""
+				(path "/d013d610-c58f-4b11-9d18-37fc135ac516/2fe0b40e-9c10-4ff0-b2cd-5720581d147f"
+					(reference "Q3")
 					(unit 1)
 				)
 			)

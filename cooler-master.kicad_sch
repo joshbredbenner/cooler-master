@@ -6,6 +6,44 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
+		(at 199.39 78.74)
+		(size 27.94 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "216059c5-2bf9-45d1-b747-ef37194b3a11")
+		(property "Sheetname" "Peripherals"
+			(at 199.39 78.0284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "peripherals.kicad_sch"
+			(at 199.39 94.5646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "cooler-master"
+				(path "/d013d610-c58f-4b11-9d18-37fc135ac516"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 166.37 78.74)
 		(size 27.94 15.24)
 		(fields_autoplaced yes)

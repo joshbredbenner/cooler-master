@@ -402,6 +402,10 @@
     [
       "ddbda7f4-3933-4f27-89fe-4c477c945179",
       "Controller"
+    ],
+    [
+      "216059c5-2bf9-45d1-b747-ef37194b3a11",
+      "Peripherals"
     ]
   ],
   "text_variables": {}
