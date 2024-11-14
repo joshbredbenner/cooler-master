@@ -1,3 +1,4 @@
 [submodule "sullivanlabs_kicad"]
 	path = sullivanlabs_kicad
 	url = https://github.com/joshbredbenner/sullivanlabs_kicad.git
+	branch = master
