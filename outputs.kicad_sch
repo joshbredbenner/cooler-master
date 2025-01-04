@@ -2569,10 +2569,6 @@
 		(uuid "36e3d2e5-6fae-4c10-83f5-0aa6a3b57b8b")
 	)
 	(no_connect
-		(at 62.23 67.31)
-		(uuid "40cbe67a-9c63-4fc0-830f-3a4ce4fdee82")
-	)
-	(no_connect
 		(at 62.23 52.07)
 		(uuid "a38fd03f-70cc-44a6-a343-cb84309ef863")
 	)
@@ -2792,6 +2788,16 @@
 	)
 	(wire
 		(pts
+			(xy 46.99 67.31) (xy 62.23 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c9bb7ff-1b25-437b-bb6e-9e901d9afc88")
+	)
+	(wire
+		(pts
 			(xy 135.89 27.94) (xy 135.89 31.75)
 		)
 		(stroke
@@ -2819,6 +2825,16 @@
 			(type default)
 		)
 		(uuid "900fd09b-6b99-4e36-9854-77cfcf6efb8d")
+	)
+	(wire
+		(pts
+			(xy 243.84 120.65) (xy 246.38 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96e41063-e03a-420f-a86a-e99516b1279c")
 	)
 	(wire
 		(pts
@@ -2879,6 +2895,16 @@
 			(type default)
 		)
 		(uuid "a777e6c5-c613-470f-b63e-6992408ad3e0")
+	)
+	(wire
+		(pts
+			(xy 246.38 119.38) (xy 246.38 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aea01140-f50c-48a3-a396-6cc14eb4e2d7")
 	)
 	(wire
 		(pts
@@ -3027,6 +3053,50 @@
 		(uuid "790835b6-213b-4e4b-b827-25480b268fb3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 47.21 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OVERHEAT"
+		(shape output)
+		(at 46.99 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8945f7ed-63bb-415e-a301-0bff7e9919b8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 34.631 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "OVERHEAT"
+		(shape output)
+		(at 243.84 120.65 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d8b5d96c-9bc8-4495-b0aa-d110cd34aab9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 231.481 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4088,6 +4158,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Sullivan-Labs:RES_4.7k_0402")
+		(at 246.38 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b4b46dc8-c640-4fcb-bc13-b41690fc5c65")
+		(property "Reference" "R43"
+			(at 244.094 117.348 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "4.7k"
+			(at 248.412 117.602 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Sullivan-Labs:R_0402_1005Metric"
+			(at 247.396 115.824 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 246.38 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "4.7kOhm 1% 0402 Resistor"
+			(at 246.38 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Yageo"
+			(at 246.38 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "RC0402FR-074K7L"
+			(at 246.38 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9203f664-9c03-4519-ba81-90df302ffa9a")
+		)
+		(pin "2"
+			(uuid "2a3b79d1-304e-4e1a-9f2f-0fa6736df011")
+		)
+		(instances
+			(project "cooler-master"
+				(path "/d013d610-c58f-4b11-9d18-37fc135ac516/7b650159-18e3-4a88-b5a2-506e6fe9f3ef"
+					(reference "R43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Sullivan-Labs:CAP_1uF_16V_0402")
 		(at 71.12 31.75 0)
 		(unit 1)
@@ -4235,6 +4392,71 @@
 			(project ""
 				(path "/d013d610-c58f-4b11-9d18-37fc135ac516/7b650159-18e3-4a88-b5a2-506e6fe9f3ef"
 					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 246.38 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d1d61192-5f45-4c77-856b-b6bf4ccb983f")
+		(property "Reference" "#PWR055"
+			(at 246.38 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 246.126 108.204 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 246.38 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a296e160-f159-4ebd-be03-15c10b118514")
+		)
+		(instances
+			(project "cooler-master"
+				(path "/d013d610-c58f-4b11-9d18-37fc135ac516/7b650159-18e3-4a88-b5a2-506e6fe9f3ef"
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)

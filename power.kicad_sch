@@ -4614,12 +4614,6 @@
 		)
 	)
 	(junction
-		(at 171.45 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "011c59bb-e60c-4caf-b7b3-dabbc0e754ff")
-	)
-	(junction
 		(at 203.2 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4818,6 +4812,12 @@
 		(uuid "a633a8b9-7202-46d8-baa3-5078389fd22e")
 	)
 	(junction
+		(at 171.45 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a8357d3d-2eb9-46b1-8290-04fff1f0ce7a")
+	)
+	(junction
 		(at 170.18 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4828,6 +4828,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "af8701d3-8e6c-4111-aae4-c618489a3653")
+	)
+	(junction
+		(at 171.45 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5c20fa2-56c7-4f90-8d08-0878f71c7710")
 	)
 	(junction
 		(at 223.52 35.56)
@@ -4852,6 +4858,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c1cc3b5f-30c7-4a9c-94db-a237129a4e8c")
+	)
+	(junction
+		(at 161.29 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2155018-5758-4421-b2e7-187c84f5da83")
 	)
 	(junction
 		(at 223.52 144.78)
@@ -5343,6 +5355,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 101.6) (xy 171.45 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38b05798-85e7-4301-805b-163263471e3a")
+	)
+	(wire
+		(pts
 			(xy 224.79 76.2) (xy 224.79 80.01)
 		)
 		(stroke
@@ -5360,6 +5382,16 @@
 			(type default)
 		)
 		(uuid "394dcf82-a1c7-4cac-8957-433b827e66ac")
+	)
+	(wire
+		(pts
+			(xy 161.29 101.6) (xy 161.29 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b58c79b-99b0-4ba0-93e5-decaba7ef4a2")
 	)
 	(wire
 		(pts
@@ -5713,6 +5745,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 110.49) (xy 161.29 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79fb8d43-e53c-4782-97c9-4cb16776f6d7")
+	)
+	(wire
+		(pts
 			(xy 217.17 80.01) (xy 224.79 80.01)
 		)
 		(stroke
@@ -5993,6 +6035,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 101.6) (xy 147.32 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aefe216f-c925-4474-a404-376452d23006")
+	)
+	(wire
+		(pts
 			(xy 189.23 101.6) (xy 189.23 107.95)
 		)
 		(stroke
@@ -6070,6 +6122,16 @@
 			(type default)
 		)
 		(uuid "bb8c1574-3b60-4d39-919d-41f8eb386f59")
+	)
+	(wire
+		(pts
+			(xy 154.94 101.6) (xy 161.29 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bea09943-eb90-4e0d-ab24-9fe64cadf336")
 	)
 	(wire
 		(pts
@@ -6263,16 +6325,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 101.6) (xy 171.45 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e58d6219-0fb6-4406-a0ff-8c1b8541a4c8")
-	)
-	(wire
-		(pts
 			(xy 181.61 80.01) (xy 207.01 80.01)
 		)
 		(stroke
@@ -6393,6 +6445,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 114.3) (xy 171.45 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbc85905-4744-4fda-b191-6183b27ea01f")
+	)
+	(wire
+		(pts
 			(xy 182.88 44.45) (xy 182.88 45.72)
 		)
 		(stroke
@@ -6400,6 +6462,37 @@
 			(type default)
 		)
 		(uuid "fca25add-4f9e-4961-81f5-83bceccff2fd")
+	)
+	(text_box "Make supplies independent of each other in case of bad external wiring"
+		(exclude_from_sim no)
+		(at 125.73 77.47 0)
+		(size 26.67 13.97)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 194 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "6f05a7bd-cfd8-4c7f-bdfa-656de4e19e5c")
+	)
+	(label "V_FILT"
+		(at 139.7 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "34df96e1-67f7-4dd3-b3ec-93407551ea4b")
 	)
 	(label "V_FILT"
 		(at 139.7 67.31 0)
@@ -7445,71 +7538,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 165.1 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "402ac3bc-e080-439c-ad0c-44e6903fcc40")
-		(property "Reference" "#PWR06"
-			(at 165.1 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 165.1 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 165.1 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e8f8c265-3721-4937-a7d1-1b9bc4e374a9")
-		)
-		(instances
-			(project "cooler-master"
-				(path "/d013d610-c58f-4b11-9d18-37fc135ac516/2fe0b40e-9c10-4ff0-b2cd-5720581d147f"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Sullivan-Labs:CAP_.1uF_50V_0603")
 		(at 234.95 72.39 0)
 		(unit 1)
@@ -8516,6 +8544,93 @@
 		)
 	)
 	(symbol
+		(lib_id "Sullivan-Labs:CAP_10uF_50V_0805")
+		(at 161.29 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8440f34f-f1ea-4694-9aab-ece26701553c")
+		(property "Reference" "C29"
+			(at 156.972 104.394 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF 50V"
+			(at 155.956 108.966 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Sullivan-Labs:C_0805_2012Metric"
+			(at 162.2552 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "10uF 50V 0805 Capacitor"
+			(at 161.29 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Murata Electronics"
+			(at 161.29 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PN" "GRM21BR61H106ME43L"
+			(at 161.29 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8479f537-dbc9-4348-93bb-004498dfe40e")
+		)
+		(pin "2"
+			(uuid "44416cbb-a2e9-43ba-84eb-f4ca00d6d794")
+		)
+		(instances
+			(project "cooler-master"
+				(path "/d013d610-c58f-4b11-9d18-37fc135ac516/2fe0b40e-9c10-4ff0-b2cd-5720581d147f"
+					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 76.2 71.12 0)
 		(unit 1)
@@ -9335,6 +9450,95 @@
 			(project "cooler-master"
 				(path "/d013d610-c58f-4b11-9d18-37fc135ac516/2fe0b40e-9c10-4ff0-b2cd-5720581d147f"
 					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sullivan-Labs:FB_600Ohm_100MHz_0402")
+		(at 147.32 101.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b4024da6-df3d-40f8-8a3d-1a3eaad86569")
+		(property "Reference" "FB2"
+			(at 151.638 94.996 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "440mA 600ohm"
+			(at 152.146 97.282 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Sullivan-Labs:R_0402_1005Metric"
+			(at 163.83 196.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/system/files/dam/doc/product/emc/emc/beads/catalog/beads_commercial_signal_mmz1005-h_en.pdf"
+			(at 163.83 296.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Chip Beads, |Z|=600? at 100MHz, L x W x T :"
+			(at 147.32 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK-Lambda"
+			(at 163.83 796.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "PN" "MMZ1005S601HT000"
+			(at 163.83 896.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2e06f51a-8ebc-4569-a079-8da0ca0f8a10")
+		)
+		(pin "1"
+			(uuid "aa372cf0-dee2-406a-9331-b8c28f3cdee7")
+		)
+		(instances
+			(project "cooler-master"
+				(path "/d013d610-c58f-4b11-9d18-37fc135ac516/2fe0b40e-9c10-4ff0-b2cd-5720581d147f"
+					(reference "FB2")
 					(unit 1)
 				)
 			)
